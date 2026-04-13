@@ -18,7 +18,7 @@ int main() {
     else if (izin == 1) {
         prompt = "MASUK";
     }
-    else if (izin == 2 && radiasi <= 2 && jam > 8 && jam < 18) {
+    else if (izin == 2 && radiasi <= 2 && jam >= 8 && jam <= 18) {
         prompt = "MASUK";
     }
     else if (izin == 2) {
